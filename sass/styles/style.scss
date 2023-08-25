@@ -174,9 +174,9 @@ h2 {
         margin-bottom: 25px;
     }
 
-    @media screen and (max-width: 1000px){
+    @media screen and (max-width: 1000px) {
     padding: 48px 20px 68px 20px;
-  }
+    }
 }
 
 .explanation__steps {
@@ -191,22 +191,22 @@ h2 {
 
     .explanation__steps--number {
         @include flex-center;
-        align-items: center;
-        background: $primary-purple;
-        color: #fff;
-        border-radius: 50%;
-        border: 2px solid $primary-purple;
-        width: 25px;
-        height: 25px;
-        position: relative;
-        margin-right: 25px;
-        padding: 5px 9px;
-        margin-left: -40px;
+            align-items: center;
+            background: $primary-purple;
+            color: #fff;
+            border-radius: 50%;
+            border: 2px solid $primary-purple;
+            width: 25px;
+            height: 25px;
+            position: relative;
+            margin-right: 25px;
+            padding: 5px 9px;
+            margin-left: -40px;
+        }
     }
-}
 
 .explanation__steps  {
-  li {  
+    li {  
         justify-content: flex-start;
         align-items: center;
         flex-wrap: nowrap;
@@ -222,7 +222,7 @@ h2 {
 
 
       p {     
-            @include font-weight-bold;
+        @include font-weight-bold;
             margin-left: 27px;
         }
     }    
@@ -249,7 +249,7 @@ h2 {
     @media screen and (max-width: 1000px) {
         padding: 48px 20px 68px 20px;
         flex-direction: column;
-      }
+    }
 }
 
 .restaurants-title {
@@ -289,7 +289,7 @@ h2 {
             width: 100%;
             height: auto;
             max-height: 185px;
-    }
+        }
 
     &:hover {
         @include hover
@@ -350,8 +350,8 @@ figcaption {
                         font-weight: bold;
                     }
                 }
-        }
-    }
+            }
+}
 
 footer {
     display: flex;
@@ -359,9 +359,9 @@ footer {
     padding: 30px 25px;
     
     @media screen and (max-width: 1000px) {
-    padding: 22px 25px;
-    display: flex;
-    flex-direction: column;
+        padding: 22px 25px;
+        display: flex;
+        flex-direction: column;
     }
     
     .footer-list ul {

@@ -15,15 +15,16 @@
         left: 4%;  
     }
 
-    &:hover {
-        transform: scale(1.15);
-        color: $primary-purple;
+        &:hover {
+            transform: scale(1.15);
+            color: $primary-purple;
+        }
     }
-}
 
     .header-logo {
-    font-size: 28px;
-}
+        font-size: 28px;
+    }
+
     & a {
         text-decoration: none;
         color: black;
@@ -195,13 +196,13 @@
 
     & h4 {
         font-size: 18px;
+        @include text-overflow;
     }
 
     & p {
         font-size: 15px; 
-        overflow: hidden;
-        text-overflow: ellipsis;
-}
+       @include text-overflow;
+    }
 }
 
 .menu-list {

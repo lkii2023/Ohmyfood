@@ -169,6 +169,8 @@
 }
 .cards-menu .title-list h4 {
   font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .cards-menu .title-list p {
   font-size: 15px;
