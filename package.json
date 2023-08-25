@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "projet 3 openclassroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkii2023/Ohmyfood.git"
+  },
+  "author": "calixte jean sebastien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkii2023/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/lkii2023/Ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.64.2"
+  }
+}

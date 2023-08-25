@@ -1,0 +1,225 @@
+@charset "UTF-8";
+.header-menu {
+  padding: 0;
+}
+.header-menu .fa-arrow-left {
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  transition: transform 400ms;
+}
+@media screen and (max-width: 1000px) {
+  .header-menu .fa-arrow-left {
+    left: 4%;
+  }
+}
+.header-menu .fa-arrow-left:hover {
+  transform: scale(1.15);
+  color: #9356DC;
+}
+.header-menu .header-logo {
+  font-size: 28px;
+}
+.header-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 1000px) {
+  .banner img {
+    height: 30vh;
+  }
+}
+
+.main-menu {
+  border-radius: 25px 25px 0 0;
+  position: relative;
+  margin-top: -30px;
+  padding: 0 15rem;
+  width: 100%;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1000px) {
+  .main-menu {
+    padding: 0 0.7rem;
+  }
+}
+
+.restaurant-title {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.restaurant-title h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.restaurant-title .fill__heart {
+  padding: 0;
+  margin: 0 1rem 0 0;
+}
+@media screen and (max-width: 1000px) {
+  .restaurant-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+}
+
+.menu-title {
+  font-family: "shrikhand", sans-serif;
+  margin: 2rem 2.5rem 2rem 0;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.title-heading {
+  animation: tracking-in-contract-bck-top 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes tracking-in-contract-bck-top {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(500px) translateY(-300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-left {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(-50px);
+  }
+}
+@keyframes menu-in-left {
+  0% {
+    transform: translateX(-45%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.cards-menu:nth-child(1) .menu-list {
+  animation-delay: 0.2s; /* Décalage pour les entrées */
+}
+
+.cards-menu:nth-child(2) .menu-list {
+  animation-delay: 0.4s; /* Décalage pour les plats */
+}
+
+.cards-menu:nth-child(3) .menu-list {
+  animation-delay: 0.5s; /* Décalage pour les desserts */
+}
+
+.cards-menu {
+  overflow: hidden;
+}
+.cards-menu h3 {
+  position: relative;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.cards-menu h3::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background: #99e2d0;
+  position: absolute;
+  z-index: 20;
+  left: 0px;
+  bottom: -10px;
+}
+.cards-menu .title-list {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.cards-menu .title-list h4 {
+  font-size: 18px;
+}
+.cards-menu .title-list p {
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cards-menu .menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 70px;
+  padding: 15px;
+  margin: 1rem 0.4rem 0.3rem 0.4rem;
+  animation: menu-in-left 0.5s ease-out backwards;
+}
+.cards-menu .menu-list .menu-list__check {
+  background-color: #99E2D0;
+  display: none;
+  position: absolute;
+  height: 100%;
+  padding: 0 15px;
+  border-radius: 0 15px 15px 0;
+  right: 0;
+}
+.cards-menu .menu-list .menu-list__check .fa-check-circle {
+  font-size: 25px;
+  color: white;
+  transform: rotate(180deg);
+  animation: rotate 0.6s both;
+}
+.cards-menu .menu-list:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 3px 5px #ff79da;
+  transition: 0.2s;
+  color: #353535;
+}
+.cards-menu .menu-list:hover .menu-list__check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slide-left 0.5s ease;
+  transform-origin: right;
+}
+.cards-menu .menu-list:hover .price {
+  padding-right: 50px;
+  transition: 0.5s ease;
+}
+
+.order .button-purple {
+  margin: 0;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=menu-restaurant.css.map */
