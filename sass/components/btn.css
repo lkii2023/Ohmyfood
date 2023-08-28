@@ -1,0 +1,32 @@
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn .button-purple {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 218px;
+  height: 50px;
+  background: linear-gradient(#ff79da, #9356dc);
+  border-radius: 25px;
+  padding: 13px 18px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  align-items: center;
+  box-shadow: 1px 2px 8px 2px #c4c4c4;
+}
+.btn .button-purple:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 3px 5px #ff79da;
+  transition: 0.2s;
+  color: #353535;
+}
+@media screen and (min-width: 1000px) {
+  .btn .button-purple {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}/*# sourceMappingURL=btn.css.map */

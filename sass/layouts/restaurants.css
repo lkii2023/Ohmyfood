@@ -1,0 +1,80 @@
+.restaurant-section {
+  padding: 30px 180px;
+}
+.restaurant-section h2 {
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 1000px) {
+  .restaurant-section {
+    padding: 48px 20px 68px 20px;
+    flex-direction: column;
+  }
+}
+
+.restaurants-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  width: 100%;
+}
+@media screen and (min-width: 1000px) {
+  .menu_cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 100px;
+  }
+}
+
+.card {
+  justify-content: center;
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 4px 4px 6px #aaa;
+  position: relative;
+}
+.card a {
+  color: black;
+  text-decoration: none;
+}
+.card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: auto;
+  max-height: 185px;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 3px 5px #ff79da;
+  transition: 0.2s;
+  color: #353535;
+}
+
+.new {
+  color: #008766;
+  background: #99E2D0;
+  border: 5px solid #99E2D0;
+  border-radius: 2px;
+  position: absolute;
+  right: 3%;
+  top: 4%;
+  padding: 0 9px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  margin: 5px 13px 16px 13px;
+}/*# sourceMappingURL=restaurants.css.map */

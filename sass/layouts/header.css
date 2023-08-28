@@ -19,4 +19,64 @@ header .header-logo {
   header .header-logo {
     height: 96px;
   }
+}
+
+nav {
+  background-color: #EAEAEA;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+nav input {
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #353535;
+  width: 125px;
+  margin-left: 17px;
+  background-color: #EAEAEA;
+}
+nav input:focus {
+  outline-color: black;
+}
+
+.menu-reservation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  font-size: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .menu-reservation {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.text-sectionlight,
+.sectionlight-grey {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.text-sectionlight {
+  margin-top: 1rem;
+  height: 46px;
+  width: 100%;
+  align-items: center;
+}
+
+.sectionlight-grey {
+  padding: 25px;
 }/*# sourceMappingURL=header.css.map */

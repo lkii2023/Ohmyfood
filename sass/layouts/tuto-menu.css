@@ -1,0 +1,75 @@
+.explanation-menu {
+  padding: 48px 20px 68px 20px;
+}
+.explanation-menu h2 {
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 1000px) {
+  .explanation-menu {
+    padding: 50px 180px;
+  }
+}
+
+.explanation__steps {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+@media screen and (min-width: 1000px) {
+  .explanation__steps {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.explanation__steps .explanation__steps--number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9356DC;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid #9356DC;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin-right: 25px;
+  padding: 5px 9px;
+  margin-left: -40px;
+}
+
+.explanation__steps li {
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 8px 2px #c4c4c4;
+  background-color: #F6F6F6;
+  margin-left: 10px;
+}
+@media screen and (min-width: 1000px) {
+  .explanation__steps li {
+    width: 100%;
+  }
+}
+.explanation__steps li p {
+  font-weight: bold;
+  margin-left: 27px;
+}
+
+.explanation__steps li:hover {
+  background: #f2eafb;
+  cursor: pointer;
+}
+
+.explanation__steps li:hover .fas {
+  color: #9356DC;
+}
+
+.explanation__steps--icon {
+  color: grey;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=tuto-menu.css.map */

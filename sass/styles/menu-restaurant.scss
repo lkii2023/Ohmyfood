@@ -1,5 +1,6 @@
 @import "../libs/variables";
 @import "../libs/mixins";
+@import "../components/keyframes.scss";
 
 .header-menu {
     padding: 0;
@@ -95,79 +96,17 @@
     animation: tracking-in-contract-bck-top 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes tracking-in-contract-bck-top {
-    0% {
-      letter-spacing: 1em;
-      -webkit-transform: translateZ(500px) translateY(-300px);
-              transform: translateZ(500px) translateY(-300px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
-      opacity: 1;
-    }
-  }
-@keyframes tracking-in-contract-bck-top {
-    0% {
-      letter-spacing: 1em;
-      -webkit-transform: translateZ(500px) translateY(-300px);
-              transform: translateZ(500px) translateY(-300px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
-      opacity: 1;
-    }
-  }
-  
-
-@keyframes slide-left {
-    0% {
-              transform: scaleX(0);
-    }
-    100% {
-              transform: scaleX(-50px);
-    }
-  }
-
-@keyframes menu-in-left {
-    0% {
-        transform: translateX(-45%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
 
 .cards-menu:nth-child(1) .menu-list {
-    animation-delay: 0.2s; /* Décalage pour les entrées */
+    animation-delay: 0.2s; 
 }
 
 .cards-menu:nth-child(2) .menu-list {
-    animation-delay: 0.4s; /* Décalage pour les plats */
+    animation-delay: 0.4s; 
 }
 
 .cards-menu:nth-child(3) .menu-list {
-    animation-delay: 0.5s; /* Décalage pour les desserts */
+    animation-delay: 0.5s; 
 }
 
 .cards-menu {
@@ -256,4 +195,3 @@
     margin-bottom: 50px;
 }
 
- 
