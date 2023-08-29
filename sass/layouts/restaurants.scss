@@ -2,11 +2,11 @@
 @import "../libs/mixins";
 
 .restaurant-section {
-    @include padding-section;
+    padding: 48px 20px 68px 20px;
+    flex-direction: column;
 
-    @media screen and (max-width: 1000px) {
-        padding: 48px 20px 68px 20px;
-        flex-direction: column;
+    @media screen and (min-width: 1000px) {
+      @include padding-section;  
     }
 }
 

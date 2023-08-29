@@ -1,3 +1,12 @@
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -48,34 +57,44 @@
   left: 2%;
   transition: transform 400ms;
 }
+.header-menu .fa-arrow-left:hover {
+  transform: scale(1.15);
+  color: #9356DC;
+}
 @media screen and (max-width: 1000px) {
   .header-menu .fa-arrow-left {
     left: 4%;
   }
 }
-.header-menu .fa-arrow-left:hover {
-  transform: scale(1.15);
-  color: #9356DC;
-}
 .header-menu .header-logo {
   font-size: 28px;
+}
+@media screen and (max-width: 1000px) {
+  .header-menu .header-logo {
+    font-size: 24px;
+  }
 }
 .header-menu a {
   text-decoration: none;
   color: black;
+}
+@media screen and (min-width: 1000px) {
+  .header-menu {
+    padding: 0;
+  }
 }
 
 .banner img {
   display: block;
   width: 100%;
   max-width: none;
-  height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 30vh;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
   .banner img {
-    height: 30vh;
+    height: 50vh;
   }
 }
 
@@ -83,15 +102,15 @@
   border-radius: 25px 25px 0 0;
   position: relative;
   margin-top: -30px;
-  padding: 0 15rem;
+  padding: 0 0.7rem;
   width: 100%;
   max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
   .main-menu {
-    padding: 0 0.7rem;
+    padding: 0 15rem;
   }
 }
 
@@ -146,6 +165,7 @@
 .cards-menu {
   overflow: hidden;
 }
+
 .cards-menu h3 {
   position: relative;
   font-weight: 300;
@@ -162,21 +182,22 @@
   left: 0px;
   bottom: -10px;
 }
-.cards-menu .title-list {
+
+.title-list {
   overflow: hidden;
   white-space: nowrap;
 }
-.cards-menu .title-list h4 {
+.title-list h4,
+.title-list p {
   font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.cards-menu .title-list p {
+.title-list p {
   font-size: 15px;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
-.cards-menu .menu-list {
+
+.menu-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -186,7 +207,7 @@
   margin: 1rem 0.4rem 0.3rem 0.4rem;
   animation: menu-in-left 0.5s ease-out backwards;
 }
-.cards-menu .menu-list .menu-list__check {
+.menu-list .menu-list__check {
   background-color: #99E2D0;
   display: none;
   position: absolute;
@@ -195,27 +216,27 @@
   border-radius: 0 15px 15px 0;
   right: 0;
 }
-.cards-menu .menu-list .menu-list__check .fa-check-circle {
+.menu-list .menu-list__check .fa-check-circle {
   font-size: 25px;
   color: white;
   transform: rotate(180deg);
   animation: rotate 0.6s both;
 }
-.cards-menu .menu-list:hover {
+.menu-list:hover {
   cursor: pointer;
   transform: scale(1.01);
   box-shadow: 0 3px 5px #ff79da;
   transition: 0.2s;
   color: #353535;
 }
-.cards-menu .menu-list:hover .menu-list__check {
+.menu-list:hover .menu-list__check {
   display: flex;
   justify-content: center;
   align-items: center;
   animation: slide-left 0.5s ease;
   transform-origin: right;
 }
-.cards-menu .menu-list:hover .price {
+.menu-list:hover .price {
   padding-right: 50px;
   transition: 0.5s ease;
 }
