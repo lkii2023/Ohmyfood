@@ -1,66 +1,57 @@
-# Projet 4 du parcours Développeur web d'OpenClassrooms : Dynamiser un site web avec des animations CSS
+# Project 4 of the OpenClassrooms Web Developer Program: Enhancing a Website with CSS Animations
 
-### Identité
+### Identity
 
-**Ohmyfood** est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de composer leur propre menu et de réduire leur temps d’attente dans les restaurants, car leur menu est préparé à l’avance. Fini la perte de temps à consulter la carte !
+**Ohmyfood** is an online food ordering company. Our concept allows users to create their own menu and reduce their wait time at restaurants, as their menu is prepared in advance. No more time wasted browsing through menus!
 
-### Proposition
+## Objectives
 
-Nous souhaitons offrir à nos clients les menus de restaurants gastronomiques. Après avoir lancé le concept à New York dans un premier temps, nous visons désormais à élargir notre présence à la capitale de la gastronomie : Paris.
+The project involves developing a website showcasing the menus of 4 major restaurants in Paris. The main features include online reservations and menu composition. Advanced CSS animations will be used to enhance the user experience.
 
-### Positionnement
+## Deliverables
 
-Notre positionnement se situe sur un marché de niche, en collaboration avec les restaurants luxueux des villes où nous sommes implantés. Notre objectif est d'être reconnus comme une entreprise proposant des services haut de gamme.
+### Pages to Integrate
 
-
-## Objectifs
-
-Le projet consiste à développer un site web mettant en avant les menus de 4 grands restaurants parisiens. Les fonctionnalités principales comprennent la réservation en ligne et la composition de menus. Les animations CSS avancées seront utilisées pour améliorer l'expérience utilisateur.
-
-## Livrables
-
-### Pages à intégrer
-
-- Pages d'accueil
-- Pages de menu (4 au total)
+- Home pages
+- Menu pages (total of 4)
 
 ### Animations
 
-#### Boutons
+#### Buttons
 
-Au survol, la couleur de fond des boutons principaux s'éclaircira légèrement. L'ombre portée deviendra également plus visible. Ensuite, un effet "J’aime" en forme de cœur sera implémenté. Initialement, l'effet peut apparaître au survol plutôt qu'au clic.
+On hover, the background color of the main buttons will slightly lighten. The drop shadow will also become more visible. Furthermore, a "Like" effect in the shape of a heart will be implemented. Initially, this effect can appear on hover rather than on click.
 
-#### Page d'accueil
+#### Home Page
 
-Lorsque l'application aura davantage de menus, un "loading spinner" sera nécessaire. Sur cette maquette, un aperçu de ce spinner est requis. Il devra s'afficher pendant 1 à 3 secondes lors de l'ouverture de la page d'accueil, couvrant toute la surface de l'écran. Les animations CSS devront être utilisées pour cette fonctionnalité.
+As the application gains more menus, a "loading spinner" will be necessary. In this design, a preview of this spinner is required. It should display for 1 to 3 seconds upon opening the home page, covering the entire screen. CSS animations should be used for this feature.
 
-### Pages de menu
+### Menu Pages
 
-À l'ouverture de la page, les plats devront apparaître progressivement avec un léger décalage dans le temps. Ils pourront être affichés individuellement ou par groupe ("Entrées", "Plats" et "Desserts").
+Upon opening the page, dishes should appear progressively with a slight time delay. They can be displayed either individually or grouped as "Appetizers," "Main Courses," and "Desserts."
 
-Les visiteurs auront la possibilité d'ajouter les plats de leur choix à leur commande en les sélectionnant. Cette action fera apparaître une coche à droite du plat, glissant de la droite vers la gauche. Dans cette version initiale, l'effet peut apparaître au survol plutôt qu'au clic. Si le libellé du plat est trop long, il sera tronqué avec des points de suspension.
+Visitors will have the ability to add their chosen dishes to their order by selecting them. This action will reveal a checkmark on the right side of the dish, sliding from right to left. In this initial version, the effect can appear on hover rather than on click. If the dish label is too long, it will be truncated with ellipses.
 
 ## Technologies
 
-Technologies autorisées : HTML, CSS, préprocesseur CSS (ex: Sass)
-Technologies interdites : JavaScript, inline CSS
+Allowed technologies: HTML, CSS, CSS preprocessor (e.g., Sass)
+Prohibited technologies: JavaScript, inline CSS
 
-## Identité graphique
+## Graphic Identity
 
-**Polices**:
-- Logo et titres : Shrikhand
-- Texte : Roboto
+**Fonts**:
+- Logo and titles: Shrikhand
+- Text: Roboto
 
-**Couleurs**:
-- Primaire : #9356DC
-- Secondaire : #FF79DA
-- Tertiaire : #99E2D0
+**Colors**:
+- Primary: #9356DC
+- Secondary: #FF79DA
+- Tertiary: #99E2D0
 
-## Compatibilité
+## Compatibility
 
-Le site sera responsive sur mobile, tablette et desktop. La mise en page sera adaptée pour tablette et desktop, mais la priorité est accordée à la version mobile.
+The website will be responsive on mobile, tablet, and desktop devices. The layout will be adapted for tablets and desktops, but priority is given to the mobile version.
 
-Les pages devront passer la validation W3C en HTML et CSS sans erreurs.
+The pages must pass W3C validation for HTML and CSS without errors.
 
-Le site sera pleinement compatible avec les versions récentes de bureau de Chrome et Firefox.
+The site will be fully compatible with the latest versions of Chrome and Firefox on desktop.
 

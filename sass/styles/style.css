@@ -45,6 +45,7 @@ td, th {
 
 body {
   font-family: "Roboto", sans-serif;
+  touch-action: auto;
 }
 
 h2 {
@@ -445,6 +446,9 @@ nav input:focus {
   padding: 48px 20px 68px 20px;
   flex-direction: column;
 }
+.restaurant-section h2 {
+  margin-bottom: 25px;
+}
 @media screen and (min-width: 1000px) {
   .restaurant-section {
     padding: 30px 180px;
@@ -452,11 +456,6 @@ nav input:focus {
   .restaurant-section h2 {
     margin-bottom: 25px;
   }
-}
-
-.restaurants-title {
-  display: flex;
-  flex-direction: column;
 }
 
 .menu_cards {

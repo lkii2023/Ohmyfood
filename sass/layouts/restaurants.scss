@@ -4,15 +4,13 @@
 .restaurant-section {
     padding: 48px 20px 68px 20px;
     flex-direction: column;
+    & h2 {
+        margin-bottom: 25px;
+    }
 
     @media screen and (min-width: 1000px) {
       @include padding-section;  
     }
-}
-
-.restaurants-title {
-    display: flex;
-    flex-direction: column;
 }
 
 .menu_cards {
