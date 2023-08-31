@@ -23,7 +23,7 @@ On hover, the background color of the main buttons will slightly lighten. The dr
 
 #### Home Page
 
-As the application gains more menus, a "loading spinner" will be necessary. In this design, a preview of this spinner is required. It should display for 1 to 3 seconds upon opening the home page, covering the entire screen. CSS animations should be used for this feature.
+As the application gains more menus, a "loading" will be necessary. In this design, a preview of this loading is required. It should display for 1 to 3 seconds upon opening the home page, covering the entire screen. CSS animations should be used for this feature.
 
 ### Menu Pages
 
