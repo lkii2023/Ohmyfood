@@ -474,8 +474,8 @@ nav input:focus {
 .card {
   justify-content: center;
   width: 100%;
-  border-radius: 25px;
-  box-shadow: 4px 4px 6px #aaa;
+  border-radius: 15px;
+  background: white;
   position: relative;
 }
 .card a {
@@ -488,7 +488,7 @@ nav input:focus {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: auto;
+  height: 100%;
   max-height: 185px;
 }
 .card:hover {
@@ -503,6 +503,7 @@ nav input:focus {
   color: #008766;
   background: #99E2D0;
   border: 5px solid #99E2D0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
   position: absolute;
   right: 3%;
