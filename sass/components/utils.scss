@@ -1,0 +1,57 @@
+@import "../libs/variables";
+@import "../libs/mixins";
+
+body {
+    font-family: $menu-font-family;
+    touch-action: auto;
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.directionRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.directionColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionlight-grey-bg {
+    background-color: $light-grey-bg;
+}
+
+.sectiondark-grey-bg {
+    background-color: $dark-grey-bg;
+}
+
+.location-grey-bg {
+    background-color: $location-grey-bg;
+}
+
+.font-family-menu {
+    font-family: $menu-font-family;
+}
+
+.font-bold {
+    @include font-weight-bold;
+}
+
+.border-radius {
+    border-radius: 15px; 
+}

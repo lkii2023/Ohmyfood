@@ -1,0 +1,34 @@
+.heart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & h4 {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        color: black;
+        padding-bottom: 1px;
+    }
+
+    .fill__heart {
+        padding-right: 10px;
+        margin-top: 10px;
+
+        .fa-regular {
+            color: black;
+            font-size: 22px;
+
+            &:hover {
+                animation: fill 0.3s ease-in-out;
+                display: inline-block;
+                opacity: 1;
+                background: linear-gradient(194deg, #9356DC 0%, #FF79DA 100%);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
+            }
+        }
+    }
+}

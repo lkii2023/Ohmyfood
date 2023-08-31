@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto", sans-serif;
+  touch-action: auto;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.directionRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.directionColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sectionlight-grey-bg {
+  background-color: #F6F6F6;
+}
+
+.sectiondark-grey-bg {
+  background-color: #353535;
+}
+
+.location-grey-bg {
+  background-color: #EAEAEA;
+}
+
+.font-family-menu {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.border-radius {
+  border-radius: 15px;
+}/*# sourceMappingURL=utils.css.map */

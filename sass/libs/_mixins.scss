@@ -21,3 +21,8 @@
         transition: 0.2s;
         color: $dark-grey-bg;
 }
+
+@mixin text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
